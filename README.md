@@ -25,7 +25,27 @@ The framework supports any 3D point cloud dataset and is highly customizable, of
    - Allows users to adapt the simulation to various scenarios and datasets.  
 
 5. **Distinct Band Coloring**  
-   - Each horizontal band is assigned a unique color for clarity in the 2D visualization.  
+   - Each horizontal band is assigned a unique color for clarity in the 2D visualization.
+  
+
+
+## Example: Projection of a 3D Bunny Model  
+
+In this example, the input 3D point cloud represents a bunny ([Stanford Bunny](https://graphics.stanford.edu/data/3Dscanrep/)), which has been projected into 2D space using the following parameters:  
+
+- **Parameters**:  
+  - **Focal length**: `f = 4` (arbitrary units).  
+  - **Camera radius**: `R = 4`.  
+  - **Number of pixel lines**: `100`.  
+  - **Band height**: Automatically calculated based on the dataset.  
+
+The resulting 2D projection is visualized below, where each horizontal band corresponds to a pixel line acquired by the virtual cameras:  
+
+![Result - Bunny Projection](Resultat.png)  
+
+**Description of the Output**:  
+- The 2D projection illustrates how the 3D points of the bunny are sequentially captured and organized into horizontal bands, mimicking the behavior of a rolling shutter.  
+- Distinct colors are applied to each band for better visualization of the acquisition process.  
 
 ### **How It Works**  
 
