@@ -31,7 +31,7 @@ The framework supports any 3D point cloud dataset and is highly customizable, of
 
 ## Example: Projection of a 3D Bunny Model  
 
-In this example, the input 3D point cloud represents a bunny ([Stanford Bunny](https://graphics.stanford.edu/data/3Dscanrep/)), which has been projected into 2D space using the following parameters:  
+In this example, the input 3D point cloud represents a bunny, which has been projected into 2D space using the following parameters:  
 
 - **Parameters**:  
   - **Focal length**: `f = 4` (arbitrary units).  
@@ -41,7 +41,7 @@ In this example, the input 3D point cloud represents a bunny ([Stanford Bunny](h
 
 The resulting 2D projection is visualized below, where each horizontal band corresponds to a pixel line acquired by the virtual cameras:  
 
-![Result - Bunny Projection](Resultat.png)  
+![Result - Bunny Projection](Result.png)  
 
 **Description of the Output**:  
 - The 2D projection illustrates how the 3D points of the bunny are sequentially captured and organized into horizontal bands, mimicking the behavior of a rolling shutter.  
