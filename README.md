@@ -110,9 +110,4 @@ The resulting 2D projection is visualized below, where each horizontal band corr
 - **`nombre_lignes` (number of pixel bands)**: Defines the vertical resolution of the 2D projection.  
 - **`ligne_h` (band height)**: Configures the vertical size of each band in 2D.  
 
-### **Future Enhancements**  
 
-- Add support for time-dependent point clouds to simulate dynamic motion.  
-- Extend the framework to include other acquisition modes, such as global shutter.  
-- Enable advanced visual effects like motion blur or depth of field.  
-- Support for non-circular camera trajectories and irregular point cloud geometries.  
