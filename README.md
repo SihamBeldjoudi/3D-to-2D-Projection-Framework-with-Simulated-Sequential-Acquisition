@@ -41,7 +41,7 @@ In this example, the input 3D point cloud represents a bunny, which has been pro
 
 The resulting 2D projection is visualized below, where each horizontal band corresponds to a pixel line acquired by the virtual cameras:  
 
-![Result - Bunny Projection](Result.png)  
+![Result - Bunny Projection](Results.png)  
 
 **Description of the Output**:  
 - The 2D projection illustrates how the 3D points of the bunny are sequentially captured and organized into horizontal bands, mimicking the behavior of a rolling shutter.  
