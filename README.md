@@ -1,4 +1,4 @@
-###**3D-to-2D Projection Framework with Simulated Sequential Acquisition**
+### **3D-to-2D Projection Framework with Simulated Sequential Acquisition**
 
 #### **Detailed Description**  
 
